@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="568.0" prefWidth="768.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.RootViewController">
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="btnVerifyAndSave" mnemonicParsing="false" onAction="#btnVerifyAndSaveAction" text="Verify by ISSN / Save to database" />
+        </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <ListView fx:id="listView" editable="true" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="btnStart" mnemonicParsing="false" onAction="#btnStartAction" text="Start" />
+            <TextField fx:id="txtSearch" onAction="#btnStartAction" promptText="PMID" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>
