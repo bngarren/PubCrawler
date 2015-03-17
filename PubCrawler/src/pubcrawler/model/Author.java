@@ -1,4 +1,4 @@
-package application.model;
+package pubcrawler.model;
 
 import java.util.ArrayList;
 import java.util.List;

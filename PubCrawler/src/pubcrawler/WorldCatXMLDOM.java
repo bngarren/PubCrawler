@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import java.io.IOException;
 import java.net.URL;
@@ -14,7 +14,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import application.model.Biblio;
+import pubcrawler.model.Biblio;
 
 public class WorldCatXMLDOM {
 

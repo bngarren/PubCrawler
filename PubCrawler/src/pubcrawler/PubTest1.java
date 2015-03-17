@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import java.io.IOException;
 import java.time.Duration;

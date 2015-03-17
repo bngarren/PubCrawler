@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;

@@ -1,6 +1,6 @@
-package application;
+package pubcrawler;
 
-import application.model.MedlineCitation;
+import pubcrawler.model.MedlineCitation;
 
 public class Article {
 

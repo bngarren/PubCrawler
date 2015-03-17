@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import java.io.IOException;
 import java.net.URL;
@@ -27,8 +27,8 @@ import org.apache.commons.collections4.Bag;
 import org.apache.commons.collections4.bag.HashBag;
 import org.xml.sax.SAXException;
 
-import application.model.Biblio;
-import application.model.MedlineCitation;
+import pubcrawler.model.Biblio;
+import pubcrawler.model.MedlineCitation;
 
 import com.db.DAOFactory;
 import com.db.JournalDAO;
@@ -79,7 +79,7 @@ public class RootViewController implements Initializable {
 
 		// First let's check if journal already exists in the database and if it has already been verified by ISSN
 
-		DAOFactory factory = DAOFactory.getInstance("lit_keeper");
+		DAOFactory factory = DAOFactory.getInstance("litterbox");
 		JournalDAO journalDAO = factory.getJournalDAO();
 
 		boolean existsInDatabase = false;

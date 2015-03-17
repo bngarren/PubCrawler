@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

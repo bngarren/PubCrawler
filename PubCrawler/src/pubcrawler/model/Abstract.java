@@ -1,4 +1,4 @@
-package application.model;
+package pubcrawler.model;
 
 public class Abstract {
 

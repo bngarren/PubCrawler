@@ -1,4 +1,4 @@
-package application;
+package pubcrawler;
 
 import java.io.IOException;
 import java.net.URL;
@@ -18,9 +18,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import application.model.Abstract;
-import application.model.Author;
-import application.model.MedlineCitation;
+import pubcrawler.model.Abstract;
+import pubcrawler.model.Author;
+import pubcrawler.model.MedlineCitation;
 
 public class PubmedXMLDOM {
 
